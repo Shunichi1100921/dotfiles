@@ -1,9 +1,11 @@
 return {
   "folke/which-key.nvim",
   opts = {
-    defaults = {
-      ["<leader>n"] = { name = "+notification" },
-      ["<leader>C"] = { name = "+copilot" },
+    spec = {
+      { "gs", group = "mini.surround" },
+      { "<leader>n", group = "notification" },
+      { "<leader>C", group = "Copilot" },
+      { "<leader>i", group = "information on sidebar" },
     },
   },
 }

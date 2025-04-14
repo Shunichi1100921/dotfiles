@@ -16,6 +16,8 @@ vim.api.nvim_create_autocmd("FileType", {
     "zsh",
     "markdown",
     "typescript",
+    "ts",
+    "tsx",
   },
   callback = function()
     vim.opt.shiftwidth = 2

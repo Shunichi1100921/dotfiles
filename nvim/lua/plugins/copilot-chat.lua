@@ -11,6 +11,7 @@ return {
       -- See Configuration section for rest
     },
     keys = {
+      { "<leader>aa", false},
       { "<leader>CC", mode = { "n", "x", "v" }, "<cmd>CopilotChatToggle<CR>", desc = "Toggle Copilot Chat" },
       { "<leader>CR", mode = { "n", "x", "v" }, "<cmd>CopilotChatReset<CR>", desc = "Reset Copilot Chat" },
       { "<leader>CE", mode = { "n", "x", "v" }, "<cmd>CopilotChatExplain<CR>", desc = "Explain code" },
